@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.2 (Python 3.9.1 on win32)" generated="20211021 17:17:05.207" rpa="false">
+<suite id="s1" name="HighLevelTS" source="F:\Anandhi\workspace\robotframework\RFWSamplesB2\tests\HighLevelTS.robot">
+<test id="s1-t1" name="Valid LoginTest">
+<kw name="Given Browser is opened with login page">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20211021 17:17:05.403" level="INFO">Opening browser 'chrome' to base url 'https://the-internet.herokuapp.com/login'.</msg>
+<status status="PASS" starttime="20211021 17:17:05.403" endtime="20211021 17:17:10.751"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20211021 17:17:10.752" endtime="20211021 17:17:10.895"></status>
+</kw>
+<kw name="Set Selenium Implicit Wait" library="SeleniumLibrary">
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<arguments>
+<arg>10s</arg>
+</arguments>
+<status status="PASS" starttime="20211021 17:17:10.897" endtime="20211021 17:17:10.912"></status>
+</kw>
+<kw name="Location Should Contain" library="SeleniumLibrary">
+<doc>Verifies that the current URL contains ``expected``.</doc>
+<arguments>
+<arg>login</arg>
+</arguments>
+<msg timestamp="20211021 17:17:10.935" level="INFO">Current location contains 'login'.</msg>
+<status status="PASS" starttime="20211021 17:17:10.914" endtime="20211021 17:17:10.936"></status>
+</kw>
+<status status="PASS" starttime="20211021 17:17:05.403" endtime="20211021 17:17:10.937"></status>
+</kw>
+<kw name="When User &quot;tomsmith&quot; login with password &quot;SuperSecretPassword!&quot;">
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>id:username</arg>
+<arg>${username}</arg>
+</arguments>
+<msg timestamp="20211021 17:17:10.945" level="INFO">Typing text 'tomsmith' into text field 'id:username'.</msg>
+<status status="PASS" starttime="20211021 17:17:10.944" endtime="20211021 17:17:11.082"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>id:password</arg>
+<arg>${password}</arg>
+</arguments>
+<msg timestamp="20211021 17:17:11.083" level="INFO">Typing text 'SuperSecretPassword!' into text field 'id:password'.</msg>
+<status status="PASS" starttime="20211021 17:17:11.082" endtime="20211021 17:17:11.187"></status>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>css:button.radius</arg>
+</arguments>
+<msg timestamp="20211021 17:17:11.188" level="INFO">Clicking button 'css:button.radius'.</msg>
+<status status="PASS" starttime="20211021 17:17:11.187" endtime="20211021 17:17:11.864"></status>
+</kw>
+<status status="PASS" starttime="20211021 17:17:10.939" endtime="20211021 17:17:11.864"></status>
+</kw>
+<kw name="Then Should display success message">
+<kw name="Element Should Contain" library="SeleniumLibrary">
+<doc>Verifies that element ``locator`` contains text ``expected``.</doc>
+<arguments>
+<arg>id:flash</arg>
+<arg>You logged into a secure area!</arg>
+</arguments>
+<msg timestamp="20211021 17:17:11.904" level="INFO">Element 'id:flash' contains text 'You logged into a secure area!'.</msg>
+<status status="PASS" starttime="20211021 17:17:11.866" endtime="20211021 17:17:11.904"></status>
+</kw>
+<status status="PASS" starttime="20211021 17:17:11.865" endtime="20211021 17:17:11.904"></status>
+</kw>
+<status status="PASS" starttime="20211021 17:17:05.401" endtime="20211021 17:17:11.905" critical="yes"></status>
+</test>
+<test id="s1-t2" name="Invalid LoginTest">
+<kw name="Given Browser is opened with login page">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20211021 17:17:11.907" level="INFO">Opening browser 'chrome' to base url 'https://the-internet.herokuapp.com/login'.</msg>
+<status status="PASS" starttime="20211021 17:17:11.907" endtime="20211021 17:17:18.870"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20211021 17:17:18.870" endtime="20211021 17:17:18.999"></status>
+</kw>
+<kw name="Set Selenium Implicit Wait" library="SeleniumLibrary">
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<arguments>
+<arg>10s</arg>
+</arguments>
+<status status="PASS" starttime="20211021 17:17:18.999" endtime="20211021 17:17:19.005"></status>
+</kw>
+<kw name="Location Should Contain" library="SeleniumLibrary">
+<doc>Verifies that the current URL contains ``expected``.</doc>
+<arguments>
+<arg>login</arg>
+</arguments>
+<msg timestamp="20211021 17:17:19.022" level="INFO">Current location contains 'login'.</msg>
+<status status="PASS" starttime="20211021 17:17:19.006" endtime="20211021 17:17:19.022"></status>
+</kw>
+<status status="PASS" starttime="20211021 17:17:11.907" endtime="20211021 17:17:19.022"></status>
+</kw>
+<kw name="When User &quot;tom&quot; login with password &quot;SuperSecret&quot;">
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>id:username</arg>
+<arg>${username}</arg>
+</arguments>
+<msg timestamp="20211021 17:17:19.030" level="INFO">Typing text 'tom' into text field 'id:username'.</msg>
+<status status="PASS" starttime="20211021 17:17:19.029" endtime="20211021 17:17:19.186"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>id:password</arg>
+<arg>${password}</arg>
+</arguments>
+<msg timestamp="20211021 17:17:19.186" level="INFO">Typing text 'SuperSecret' into text field 'id:password'.</msg>
+<status status="PASS" starttime="20211021 17:17:19.186" endtime="20211021 17:17:19.290"></status>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>css:button.radius</arg>
+</arguments>
+<msg timestamp="20211021 17:17:19.291" level="INFO">Clicking button 'css:button.radius'.</msg>
+<status status="PASS" starttime="20211021 17:17:19.291" endtime="20211021 17:17:19.953"></status>
+</kw>
+<status status="PASS" starttime="20211021 17:17:19.027" endtime="20211021 17:17:19.953"></status>
+</kw>
+<kw name="Then Should display error message">
+<kw name="Element Should Contain" library="SeleniumLibrary">
+<doc>Verifies that element ``locator`` contains text ``expected``.</doc>
+<arguments>
+<arg>id:flash</arg>
+<arg>Your username is invalid!</arg>
+</arguments>
+<msg timestamp="20211021 17:17:19.998" level="INFO">Element 'id:flash' contains text 'Your username is invalid!'.</msg>
+<status status="PASS" starttime="20211021 17:17:19.956" endtime="20211021 17:17:19.999"></status>
+</kw>
+<status status="PASS" starttime="20211021 17:17:19.955" endtime="20211021 17:17:19.999"></status>
+</kw>
+<status status="PASS" starttime="20211021 17:17:11.906" endtime="20211021 17:17:20.002" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20211021 17:17:05.209" endtime="20211021 17:17:20.007"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0">Critical Tests</stat>
+<stat pass="2" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="2" fail="0" id="s1" name="HighLevelTS">HighLevelTS</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

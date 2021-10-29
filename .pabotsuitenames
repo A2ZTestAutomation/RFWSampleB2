@@ -1,0 +1,7 @@
+datasources:479534e6d20fe0f01df6285cbbe405485b81e8df
+commandlineoptions:97d170e1550eee4afc0af065b78cda302a97674c
+suitesfrom:no-suites-from-option
+file:585e526dbb97cc9eafd0bedfc4467e634c72eb9b
+--suite parallelTests.AlertTS
+--suite parallelTests.ChkBoxTS
+--suite parallelTests.HighLevelTS

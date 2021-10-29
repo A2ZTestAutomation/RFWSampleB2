@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.2 (Python 3.9.1 on win32)" generated="20211022 14:35:34.729" rpa="false">
+<suite id="s1" name="RunProcessTS" source="F:\Anandhi\workspace\robotframework\RFWSamplesB2\ProcessSamples\RunProcessTS.robot">
+<test id="s1-t1" name="Run ProcessTest">
+<kw name="Run Process" library="Process">
+<doc>Runs a process and waits for it to complete.</doc>
+<arguments>
+<arg>python</arg>
+<arg>hello.py</arg>
+</arguments>
+<assign>
+<var>${result}</var>
+</assign>
+<msg timestamp="20211022 14:35:34.781" level="INFO">Starting process:
+python hello.py</msg>
+<msg timestamp="20211022 14:35:34.794" level="INFO">Waiting for process to complete.</msg>
+<msg timestamp="20211022 14:35:34.960" level="INFO">Process completed.</msg>
+<msg timestamp="20211022 14:35:34.960" level="INFO">${result} = &lt;result object with rc 0&gt;</msg>
+<status status="PASS" starttime="20211022 14:35:34.780" endtime="20211022 14:35:34.960"></status>
+</kw>
+<kw name="Should Be Equal As Integers" library="BuiltIn">
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<arguments>
+<arg>${result.rc}</arg>
+<arg>0</arg>
+</arguments>
+<msg timestamp="20211022 14:35:34.962" level="INFO">Argument types are:
+&lt;class 'int'&gt;
+&lt;type 'unicode'&gt;</msg>
+<status status="PASS" starttime="20211022 14:35:34.961" endtime="20211022 14:35:34.963"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${result.stdout}</arg>
+</arguments>
+<status status="PASS" starttime="20211022 14:35:34.963" endtime="20211022 14:35:34.964"></status>
+</kw>
+<kw name="Should Be Equal As Strings" library="BuiltIn">
+<doc>Fails if objects are unequal after converting them to strings.</doc>
+<arguments>
+<arg>${result.stdout}</arg>
+<arg>ello Welcome</arg>
+</arguments>
+<msg timestamp="20211022 14:35:34.967" level="FAIL">Hello Welcome != ello Welcome</msg>
+<status status="FAIL" starttime="20211022 14:35:34.966" endtime="20211022 14:35:34.967"></status>
+</kw>
+<status status="FAIL" starttime="20211022 14:35:34.777" endtime="20211022 14:35:34.968" critical="yes">Hello Welcome != ello Welcome</status>
+</test>
+<status status="FAIL" starttime="20211022 14:35:34.732" endtime="20211022 14:35:34.974"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1">Critical Tests</stat>
+<stat pass="0" fail="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" id="s1" name="RunProcessTS">RunProcessTS</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

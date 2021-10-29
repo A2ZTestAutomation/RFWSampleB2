@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.2 (Python 3.9.1 on win32)" generated="20211027 17:08:26.550" rpa="false">
+<suite id="s1" name="RFWSamplesB2" source="F:\Anandhi\workspace\robotframework\RFWSamplesB2">
+<suite id="s1-s1" name="appiumSamples" source="F:\Anandhi\workspace\robotframework\RFWSamplesB2\appiumSamples">
+<suite id="s1-s1-s1" name="UIElementsTest" source="F:\Anandhi\workspace\robotframework\RFWSamplesB2\appiumSamples\UIElementsTest.robot">
+<test id="s1-s1-s1-t1" name="WebElements Test">
+<kw name="Open API DemoApp in Real Dev">
+<kw name="Open Application" library="AppiumLibrary">
+<doc>Opens a new application to given Appium server.
+Capabilities of appium server, Android and iOS,
+Please check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md
+| *Option*            | *Man.* | *Description*     |
+| remote_url          | Yes    | Appium server url |
+| alias               | no     | alias             |</doc>
+<arguments>
+<arg>http://localhost:4723/wd/hub</arg>
+<arg>platformName=Android</arg>
+<arg>platformVersion= 7.0</arg>
+<arg>deviceName=LBFYHEPN7LGASKQS</arg>
+<arg>newCommandTimeout=5000</arg>
+<arg>app=${APP}</arg>
+</arguments>
+<status status="PASS" starttime="20211027 17:08:26.813" endtime="20211027 17:08:52.117"></status>
+</kw>
+<status status="PASS" starttime="20211027 17:08:26.812" endtime="20211027 17:08:52.118"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20211027 17:08:54.125" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20211027 17:08:52.118" endtime="20211027 17:08:54.125"></status>
+</kw>
+<kw name="Element Should Be Visible" library="AppiumLibrary">
+<doc>Verifies that element identified with locator is visible.</doc>
+<arguments>
+<arg>accessibility_id=Views</arg>
+</arguments>
+<status status="PASS" starttime="20211027 17:08:54.126" endtime="20211027 17:08:54.273"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>accessibility_id=Views</arg>
+</arguments>
+<msg timestamp="20211027 17:08:54.276" level="INFO">Clicking element 'accessibility_id=Views'.</msg>
+<status status="PASS" starttime="20211027 17:08:54.275" endtime="20211027 17:08:55.019"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20211027 17:08:57.033" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20211027 17:08:55.020" endtime="20211027 17:08:57.035"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>accessibility_id=Controls</arg>
+</arguments>
+<msg timestamp="20211027 17:08:57.042" level="INFO">Clicking element 'accessibility_id=Controls'.</msg>
+<status status="PASS" starttime="20211027 17:08:57.038" endtime="20211027 17:08:57.894"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20211027 17:08:59.899" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20211027 17:08:57.895" endtime="20211027 17:08:59.899"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>accessibility_id=2. Dark Theme</arg>
+</arguments>
+<msg timestamp="20211027 17:08:59.901" level="INFO">Clicking element 'accessibility_id=2. Dark Theme'.</msg>
+<status status="PASS" starttime="20211027 17:08:59.900" endtime="20211027 17:09:00.772"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20211027 17:09:02.780" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20211027 17:09:00.772" endtime="20211027 17:09:02.781"></status>
+</kw>
+<kw name="Input Text" library="AppiumLibrary">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>io.appium.android.apis:id/edit</arg>
+<arg>Hello Welcome</arg>
+</arguments>
+<msg timestamp="20211027 17:09:02.783" level="INFO">Typing text 'Hello Welcome' into text field 'io.appium.android.apis:id/edit'</msg>
+<status status="PASS" starttime="20211027 17:09:02.781" endtime="20211027 17:09:04.508"></status>
+</kw>
+<kw name="Hide Keyboard" library="AppiumLibrary">
+<doc>Hides the software keyboard on the device. (optional) In iOS, use `key_name` to press
+a particular key, ex. `Done`. In Android, no parameters are used.</doc>
+<status status="PASS" starttime="20211027 17:09:04.508" endtime="20211027 17:09:11.548"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>accessibility_id=Checkbox 1</arg>
+</arguments>
+<msg timestamp="20211027 17:09:11.550" level="INFO">Clicking element 'accessibility_id=Checkbox 1'.</msg>
+<status status="PASS" starttime="20211027 17:09:11.548" endtime="20211027 17:09:11.652"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>accessibility_id=RadioButton 1</arg>
+</arguments>
+<msg timestamp="20211027 17:09:11.654" level="INFO">Clicking element 'accessibility_id=RadioButton 1'.</msg>
+<status status="PASS" starttime="20211027 17:09:11.653" endtime="20211027 17:09:12.225"></status>
+</kw>
+<kw name="Swipe By Percent" library="AppiumLibrary">
+<doc>Swipe from one percent of the screen to another percent, for an optional duration.
+Normal swipe fails to scale for different screen resolutions, this can be avoided using percent.</doc>
+<arguments>
+<arg>10</arg>
+<arg>50</arg>
+<arg>10</arg>
+<arg>30</arg>
+<arg>1000</arg>
+</arguments>
+<status status="PASS" starttime="20211027 17:09:12.226" endtime="20211027 17:09:13.741"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>id=io.appium.android.apis:id/toggle1</arg>
+</arguments>
+<msg timestamp="20211027 17:09:13.743" level="INFO">Clicking element 'id=io.appium.android.apis:id/toggle1'.</msg>
+<status status="PASS" starttime="20211027 17:09:13.741" endtime="20211027 17:09:13.879"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>id=android:id/text1</arg>
+</arguments>
+<msg timestamp="20211027 17:09:13.886" level="INFO">Clicking element 'id=android:id/text1'.</msg>
+<status status="PASS" starttime="20211027 17:09:13.881" endtime="20211027 17:09:14.574"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5s</arg>
+</arguments>
+<msg timestamp="20211027 17:09:19.587" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20211027 17:09:14.577" endtime="20211027 17:09:19.588"></status>
+</kw>
+<kw name="Get Webelements" library="AppiumLibrary">
+<doc>Returns list of [http://selenium-python.readthedocs.io/api.html#module-selenium.webdriver.remote.webelement|WebElement] objects matching ``locator``.</doc>
+<arguments>
+<arg>android:id/text1</arg>
+</arguments>
+<assign>
+<var>${elements}</var>
+</assign>
+<msg timestamp="20211027 17:09:19.692" level="INFO">${elements} = [&lt;appium.webdriver.webelement.WebElement (session="829d0b1f-e3d6-4000-b70b-cd90cba10c27", element="07633c93-3fe0-41dd-82c2-09a5cd826ddb")&gt;, &lt;appium.webdriver.webelement.WebElement (session="829d0b1f-e...</msg>
+<status status="PASS" starttime="20211027 17:09:19.588" endtime="20211027 17:09:19.692"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${elements}[2]</arg>
+</arguments>
+<msg timestamp="20211027 17:09:19.697" level="INFO">Clicking element '&lt;appium.webdriver.webelement.WebElement (session="829d0b1f-e3d6-4000-b70b-cd90cba10c27", element="37f82717-2e32-4607-a0a9-f5b44913dd1e")&gt;'.</msg>
+<status status="PASS" starttime="20211027 17:09:19.693" endtime="20211027 17:09:20.497"></status>
+</kw>
+<status status="PASS" starttime="20211027 17:08:26.810" endtime="20211027 17:09:20.498" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20211027 17:08:26.631" endtime="20211027 17:09:20.499"></status>
+</suite>
+<status status="PASS" starttime="20211027 17:08:26.625" endtime="20211027 17:09:20.502"></status>
+</suite>
+<status status="PASS" starttime="20211027 17:08:26.591" endtime="20211027 17:09:20.504"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="RFWSamplesB2">RFWSamplesB2</stat>
+<stat pass="1" fail="0" id="s1-s1" name="appiumSamples">RFWSamplesB2.appiumSamples</stat>
+<stat pass="1" fail="0" id="s1-s1-s1" name="UIElementsTest">RFWSamplesB2.appiumSamples.UIElementsTest</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

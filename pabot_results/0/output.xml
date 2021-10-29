@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.2 (Python 3.9.1 on win32)" generated="20211021 17:41:58.611" rpa="false">
+<suite id="s1" name="parallelTests" source="F:\Anandhi\workspace\robotframework\RFWSamplesB2\parallelTests">
+<suite id="s1-s1" name="AlertTS" source="F:\Anandhi\workspace\robotframework\RFWSamplesB2\parallelTests\AlertTS.robot">
+<test id="s1-s1-t1" name="Valid LoginTest">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20211021 17:41:58.903" level="INFO">Opening browser 'chrome' to base url 'https://demo.seleniumeasy.com/javascript-alert-box-demo.html'.</msg>
+<status status="PASS" starttime="20211021 17:41:58.902" endtime="20211021 17:42:13.725"></status>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>xpath:(//button[contains(text(), 'Click me')])[1]</arg>
+</arguments>
+<msg timestamp="20211021 17:42:13.727" level="INFO">Clicking button 'xpath:(//button[contains(text(), 'Click me')])[1]'.</msg>
+<status status="PASS" starttime="20211021 17:42:13.726" endtime="20211021 17:42:14.235"></status>
+</kw>
+<kw name="Handle Alert" library="SeleniumLibrary">
+<doc>Handles the current alert and returns its message.</doc>
+<arguments>
+<arg>Accept</arg>
+</arguments>
+<msg timestamp="20211021 17:42:14.246" level="INFO">HANDLE::&lt;class 'NoneType'&gt;::None</msg>
+<status status="PASS" starttime="20211021 17:42:14.239" endtime="20211021 17:42:14.528"></status>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>xpath:(//button[contains(text(), 'Click me')])[2]</arg>
+</arguments>
+<msg timestamp="20211021 17:42:14.530" level="INFO">Clicking button 'xpath:(//button[contains(text(), 'Click me')])[2]'.</msg>
+<status status="PASS" starttime="20211021 17:42:14.528" endtime="20211021 17:42:15.674"></status>
+</kw>
+<kw name="Handle Alert" library="SeleniumLibrary">
+<doc>Handles the current alert and returns its message.</doc>
+<arguments>
+<arg>accept</arg>
+</arguments>
+<assign>
+<var>${alertMsg}</var>
+</assign>
+<msg timestamp="20211021 17:42:15.675" level="INFO">HANDLE::&lt;class 'NoneType'&gt;::None</msg>
+<msg timestamp="20211021 17:42:15.696" level="INFO">${alertMsg} = Press a button!</msg>
+<status status="PASS" starttime="20211021 17:42:15.674" endtime="20211021 17:42:15.696"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${alertMsg}</arg>
+</arguments>
+<status status="PASS" starttime="20211021 17:42:15.696" endtime="20211021 17:42:15.698"></status>
+</kw>
+<kw name="Should Be Equal As Strings" library="BuiltIn">
+<doc>Fails if objects are unequal after converting them to strings.</doc>
+<arguments>
+<arg>${alertMsg}</arg>
+<arg>Press a button!</arg>
+</arguments>
+<status status="PASS" starttime="20211021 17:42:15.698" endtime="20211021 17:42:15.700"></status>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>xpath:(//button[contains(text(), 'Prompt')])</arg>
+</arguments>
+<msg timestamp="20211021 17:42:15.703" level="INFO">Clicking button 'xpath:(//button[contains(text(), 'Prompt')])'.</msg>
+<status status="PASS" starttime="20211021 17:42:15.701" endtime="20211021 17:42:15.916"></status>
+</kw>
+<kw name="Input Text Into Alert" library="SeleniumLibrary">
+<doc>Types the given ``text`` into an input field in an alert.</doc>
+<arguments>
+<arg>Hello Welcome</arg>
+</arguments>
+<status status="PASS" starttime="20211021 17:42:15.917" endtime="20211021 17:42:15.944"></status>
+</kw>
+<status status="PASS" starttime="20211021 17:41:58.901" endtime="20211021 17:42:15.945" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20211021 17:41:58.652" endtime="20211021 17:42:15.947"></status>
+</suite>
+<status status="PASS" starttime="20211021 17:41:58.624" endtime="20211021 17:42:15.998"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="parallelTests">parallelTests</stat>
+<stat pass="1" fail="0" id="s1-s1" name="AlertTS">parallelTests.AlertTS</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
