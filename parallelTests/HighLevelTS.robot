@@ -21,6 +21,7 @@ Browser is opened with login page
     open browser    ${URL}     ${BROWSER} 
     Maximize Browser Window
     Set Selenium Implicit Wait    10s
+    Log to console    Url contains login
     Location Should Contain    login      
  
 User "${username}" login with password "${password}"
