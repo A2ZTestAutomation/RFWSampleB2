@@ -13,7 +13,7 @@ Place Order
 Checkout
     [Tags]    SmokeTest
     Log To Console    Checkout  
-    Log to console     Modified on 1stNov21  AF Batch
+    Log to console     Modified on 1stNov21  AF Batch to run from Jenkins
     
 Logout
     Log To Console    Logout    
