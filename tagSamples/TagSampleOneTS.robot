@@ -12,7 +12,8 @@ Place Order
     
 Checkout
     [Tags]    SmokeTest
-    Log To Console    Checkout    
+    Log To Console    Checkout  
+    Log to console     Modified on 1stNov21  
     
 Logout
     Log To Console    Logout    
