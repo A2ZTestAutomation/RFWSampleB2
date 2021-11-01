@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 3.2.2 (Python 3.9.1 on win32)" generated="20211101 14:19:23.613" rpa="false">
+<robot generator="Robot 3.2.2 (Python 3.9.1 on win32)" generated="20211101 14:23:13.950" rpa="false">
 <suite id="s1" name="tagSamples" source="F:\Anandhi\workspace\robotframework\RFWSamplesB2\tagSamples">
 <suite id="s1-s1" name="TagSampleOneTS" source="F:\Anandhi\workspace\robotframework\RFWSamplesB2\tagSamples\TagSampleOneTS.robot">
 <test id="s1-s1-t1" name="Valid Login">
@@ -8,12 +8,12 @@
 <arguments>
 <arg>Valid Login</arg>
 </arguments>
-<status status="PASS" starttime="20211101 14:19:23.670" endtime="20211101 14:19:23.670"></status>
+<status status="PASS" starttime="20211101 14:23:13.979" endtime="20211101 14:23:13.979"></status>
 </kw>
 <tags>
 <tag>RegTest</tag>
 </tags>
-<status status="PASS" starttime="20211101 14:19:23.670" endtime="20211101 14:19:23.670" critical="yes"></status>
+<status status="PASS" starttime="20211101 14:23:13.979" endtime="20211101 14:23:13.979" critical="yes"></status>
 </test>
 <test id="s1-s1-t2" name="Search Item">
 <kw name="Log To Console" library="BuiltIn">
@@ -21,13 +21,13 @@
 <arguments>
 <arg>Search Item</arg>
 </arguments>
-<status status="PASS" starttime="20211101 14:19:23.671" endtime="20211101 14:19:23.671"></status>
+<status status="PASS" starttime="20211101 14:23:13.980" endtime="20211101 14:23:13.981"></status>
 </kw>
 <tags>
 <tag>RegTest</tag>
 <tag>SmokeTest</tag>
 </tags>
-<status status="PASS" starttime="20211101 14:19:23.671" endtime="20211101 14:19:23.671" critical="yes"></status>
+<status status="PASS" starttime="20211101 14:23:13.980" endtime="20211101 14:23:13.981" critical="yes"></status>
 </test>
 <test id="s1-s1-t3" name="Place Order">
 <kw name="Log To Console" library="BuiltIn">
@@ -35,9 +35,9 @@
 <arguments>
 <arg>Place Order</arg>
 </arguments>
-<status status="PASS" starttime="20211101 14:19:23.672" endtime="20211101 14:19:23.672"></status>
+<status status="PASS" starttime="20211101 14:23:13.981" endtime="20211101 14:23:13.981"></status>
 </kw>
-<status status="PASS" starttime="20211101 14:19:23.671" endtime="20211101 14:19:23.672" critical="yes"></status>
+<status status="PASS" starttime="20211101 14:23:13.981" endtime="20211101 14:23:13.982" critical="yes"></status>
 </test>
 <test id="s1-s1-t4" name="Checkout">
 <kw name="Log To Console" library="BuiltIn">
@@ -45,19 +45,20 @@
 <arguments>
 <arg>Checkout</arg>
 </arguments>
-<status status="PASS" starttime="20211101 14:19:23.673" endtime="20211101 14:19:23.673"></status>
+<status status="PASS" starttime="20211101 14:23:13.982" endtime="20211101 14:23:13.982"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>Modified on 1stNov21</arg>
+<arg>AF Batch to run from Jenkins</arg>
 </arguments>
-<status status="PASS" starttime="20211101 14:19:23.673" endtime="20211101 14:19:23.673"></status>
+<status status="PASS" starttime="20211101 14:23:13.982" endtime="20211101 14:23:13.983"></status>
 </kw>
 <tags>
 <tag>SmokeTest</tag>
 </tags>
-<status status="PASS" starttime="20211101 14:19:23.672" endtime="20211101 14:19:23.673" critical="yes"></status>
+<status status="PASS" starttime="20211101 14:23:13.982" endtime="20211101 14:23:13.983" critical="yes"></status>
 </test>
 <test id="s1-s1-t5" name="Logout">
 <kw name="Log To Console" library="BuiltIn">
@@ -65,11 +66,11 @@
 <arguments>
 <arg>Logout</arg>
 </arguments>
-<status status="PASS" starttime="20211101 14:19:23.674" endtime="20211101 14:19:23.674"></status>
+<status status="PASS" starttime="20211101 14:23:13.983" endtime="20211101 14:23:13.984"></status>
 </kw>
-<status status="PASS" starttime="20211101 14:19:23.673" endtime="20211101 14:19:23.674" critical="yes"></status>
+<status status="PASS" starttime="20211101 14:23:13.983" endtime="20211101 14:23:13.984" critical="yes"></status>
 </test>
-<status status="PASS" starttime="20211101 14:19:23.668" endtime="20211101 14:19:23.674"></status>
+<status status="PASS" starttime="20211101 14:23:13.976" endtime="20211101 14:23:13.984"></status>
 </suite>
 <suite id="s1-s2" name="TagSampleThreeTS" source="F:\Anandhi\workspace\robotframework\RFWSamplesB2\tagSamples\TagSampleThreeTS.robot">
 <test id="s1-s2-t1" name="Valid Login">
@@ -78,12 +79,12 @@
 <arguments>
 <arg>Valid Login ThreeTS</arg>
 </arguments>
-<status status="PASS" starttime="20211101 14:19:23.677" endtime="20211101 14:19:23.677"></status>
+<status status="PASS" starttime="20211101 14:23:13.987" endtime="20211101 14:23:13.988"></status>
 </kw>
 <tags>
 <tag>Req-101</tag>
 </tags>
-<status status="PASS" starttime="20211101 14:19:23.677" endtime="20211101 14:19:23.677" critical="yes"></status>
+<status status="PASS" starttime="20211101 14:23:13.987" endtime="20211101 14:23:13.988" critical="yes"></status>
 </test>
 <test id="s1-s2-t2" name="Search Item">
 <kw name="Log To Console" library="BuiltIn">
@@ -91,12 +92,12 @@
 <arguments>
 <arg>Search Item ThreeTS</arg>
 </arguments>
-<status status="PASS" starttime="20211101 14:19:23.679" endtime="20211101 14:19:23.679"></status>
+<status status="PASS" starttime="20211101 14:23:13.989" endtime="20211101 14:23:13.989"></status>
 </kw>
 <tags>
 <tag>FuncTest</tag>
 </tags>
-<status status="PASS" starttime="20211101 14:19:23.678" endtime="20211101 14:19:23.679" critical="yes"></status>
+<status status="PASS" starttime="20211101 14:23:13.988" endtime="20211101 14:23:13.989" critical="yes"></status>
 </test>
 <test id="s1-s2-t3" name="Place Order">
 <kw name="Log To Console" library="BuiltIn">
@@ -104,12 +105,12 @@
 <arguments>
 <arg>Place Order ThreeTS</arg>
 </arguments>
-<status status="PASS" starttime="20211101 14:19:23.680" endtime="20211101 14:19:23.680"></status>
+<status status="PASS" starttime="20211101 14:23:13.989" endtime="20211101 14:23:13.990"></status>
 </kw>
 <tags>
 <tag>FuncTest</tag>
 </tags>
-<status status="PASS" starttime="20211101 14:19:23.679" endtime="20211101 14:19:23.680" critical="yes"></status>
+<status status="PASS" starttime="20211101 14:23:13.989" endtime="20211101 14:23:13.990" critical="yes"></status>
 </test>
 <test id="s1-s2-t4" name="Checkout">
 <kw name="Log To Console" library="BuiltIn">
@@ -117,12 +118,12 @@
 <arguments>
 <arg>Checkout ThreeTS</arg>
 </arguments>
-<status status="PASS" starttime="20211101 14:19:23.680" endtime="20211101 14:19:23.681"></status>
+<status status="PASS" starttime="20211101 14:23:13.990" endtime="20211101 14:23:13.990"></status>
 </kw>
 <tags>
 <tag>Req-101</tag>
 </tags>
-<status status="PASS" starttime="20211101 14:19:23.680" endtime="20211101 14:19:23.681" critical="yes"></status>
+<status status="PASS" starttime="20211101 14:23:13.990" endtime="20211101 14:23:13.991" critical="yes"></status>
 </test>
 <test id="s1-s2-t5" name="Logout">
 <kw name="Log To Console" library="BuiltIn">
@@ -130,14 +131,14 @@
 <arguments>
 <arg>Logout ThreeTS</arg>
 </arguments>
-<status status="PASS" starttime="20211101 14:19:23.681" endtime="20211101 14:19:23.681"></status>
+<status status="PASS" starttime="20211101 14:23:13.991" endtime="20211101 14:23:13.991"></status>
 </kw>
 <tags>
 <tag>FuncTest</tag>
 </tags>
-<status status="PASS" starttime="20211101 14:19:23.681" endtime="20211101 14:19:23.682" critical="yes"></status>
+<status status="PASS" starttime="20211101 14:23:13.991" endtime="20211101 14:23:13.991" critical="yes"></status>
 </test>
-<status status="PASS" starttime="20211101 14:19:23.675" endtime="20211101 14:19:23.682"></status>
+<status status="PASS" starttime="20211101 14:23:13.985" endtime="20211101 14:23:13.991"></status>
 </suite>
 <suite id="s1-s3" name="TagSampleTwoTS" source="F:\Anandhi\workspace\robotframework\RFWSamplesB2\tagSamples\TagSampleTwoTS.robot">
 <test id="s1-s3-t1" name="Generate Invoice">
@@ -146,9 +147,9 @@
 <arguments>
 <arg>Generate Invoice</arg>
 </arguments>
-<status status="PASS" starttime="20211101 14:19:23.685" endtime="20211101 14:19:23.686"></status>
+<status status="PASS" starttime="20211101 14:23:13.995" endtime="20211101 14:23:13.995"></status>
 </kw>
-<status status="PASS" starttime="20211101 14:19:23.685" endtime="20211101 14:19:23.686" critical="yes"></status>
+<status status="PASS" starttime="20211101 14:23:13.994" endtime="20211101 14:23:13.995" critical="yes"></status>
 </test>
 <test id="s1-s3-t2" name="Make Payment">
 <kw name="Log To Console" library="BuiltIn">
@@ -156,23 +157,23 @@
 <arguments>
 <arg>Make Payment</arg>
 </arguments>
-<status status="PASS" starttime="20211101 14:19:23.687" endtime="20211101 14:19:23.687"></status>
+<status status="PASS" starttime="20211101 14:23:13.996" endtime="20211101 14:23:13.997"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>Updated for Bug Fix</arg>
 </arguments>
-<status status="PASS" starttime="20211101 14:19:23.687" endtime="20211101 14:19:23.687"></status>
+<status status="PASS" starttime="20211101 14:23:13.997" endtime="20211101 14:23:13.997"></status>
 </kw>
 <tags>
 <tag>RegTest</tag>
 </tags>
-<status status="PASS" starttime="20211101 14:19:23.686" endtime="20211101 14:19:23.687" critical="yes"></status>
+<status status="PASS" starttime="20211101 14:23:13.995" endtime="20211101 14:23:13.997" critical="yes"></status>
 </test>
-<status status="PASS" starttime="20211101 14:19:23.683" endtime="20211101 14:19:23.688"></status>
+<status status="PASS" starttime="20211101 14:23:13.992" endtime="20211101 14:23:13.997"></status>
 </suite>
-<status status="PASS" starttime="20211101 14:19:23.615" endtime="20211101 14:19:23.688"></status>
+<status status="PASS" starttime="20211101 14:23:13.952" endtime="20211101 14:23:13.998"></status>
 </suite>
 <statistics>
 <total>

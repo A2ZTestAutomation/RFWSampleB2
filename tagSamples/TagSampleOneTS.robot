@@ -9,6 +9,7 @@ Search Item
     
 Place Order
     Log To Console    Place Order    
+        Log to console     Modified on 1stNov21  AF Batch to run from Jenkins
     
 Checkout
     [Tags]    SmokeTest
